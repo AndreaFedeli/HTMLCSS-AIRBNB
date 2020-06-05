@@ -1,0 +1,41 @@
+
+
+body{background-color: rgb(10,17,48);
+height: 100vh;
+width: 100vw}
+
+.row{background-color: white;
+  height: 710px;
+  width: 330px;
+  text-align: ;
+
+  margin-left: 20px;
+  margin-top: 30px;}
+
+img{padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  text-align: center;
+  position: relative;
+}
+
+.overlay{width: 100%;
+  height: 100%;
+  background-color: #fff;
+  opacity:.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;}
+
+.citta{position: relative;
+}
+
+.citta:hover .overlay{display: block;}
+
+h2{position: absolute;
+top: 50%;
+left:50%;
+transform:translate(-50%,-50%);
+color: WHITE;
+}
